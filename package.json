@@ -1,0 +1,38 @@
+{
+  "name": "nanny-hiring-backend",
+  "version": "1.0.0",
+  "description": "A hiring web app backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhembe/Nanny-Hiring-App.git"
+  },
+  "keywords": [
+    "nanny",
+    "express"
+  ],
+  "author": "Joseph Gabriel Mahembega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhembe/Nanny-Hiring-App/issues"
+  },
+  "homepage": "https://github.com/jhembe/Nanny-Hiring-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
